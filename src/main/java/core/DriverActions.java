@@ -1,8 +1,10 @@
 package core;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
-abstract class DriverActions {
+abstract public class DriverActions {
 	protected WebDriver driver;
 	
 	public DriverActions(WebDriver driver) {
@@ -10,7 +12,10 @@ abstract class DriverActions {
 	}
 	
 	
-	protected 
+	public WebElement findElementByXpath(String xpathOfPageObject) {
+		return driver.findElement(By.xpath(xpathOfPageObject));
+	}
+	
 	
 
 }

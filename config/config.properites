@@ -1,0 +1,8 @@
+environment = ENG1
+
+ENG1_URL = https://interact.eng1.responsys.net/interact/login/LoginPage
+QA1_URL = https://interact.qa1.responsys.net/interact/login/LoginPage
+
+userName = pavantest1
+password = Welcome1234!
+
