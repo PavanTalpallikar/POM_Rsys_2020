@@ -1,8 +1,16 @@
 package pages.home;
 
-public class HomePage {
+import org.openqa.selenium.WebDriver;
+
+import core.DriverActions;
+
+public class HomePage extends DriverActions{
 	
-   public Boolean checkIfHamburgerMenuExists() {
+   public HomePage(WebDriver driver) {
+		super(driver);
+	}
+
+public Boolean checkIfHamburgerMenuExists() {
 	   
 	   System.out.println("Hamburger Menu exits");
 	   

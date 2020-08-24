@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Rsys Suite" verbose="1">
+	<test name = "Programs Test" junit="false">
+		<classes>
+			<class name = "programs.TestPrograms"/>
+		</classes>
+	</test>
+</suite>

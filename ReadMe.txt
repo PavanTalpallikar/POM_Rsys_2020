@@ -43,6 +43,18 @@ Basically all 'verbs' on driver.
 
 ========================================================================================
 src/main/java/
+impl > Programs > Program
+
+This is an implementation class which will interact with different pages of Programs module.
+Methods in this class are public and will navigate to multiple pages to achieve a particular task.
+
+This class will have a public constructor with WebDriver driver parameter. This class will pass the driver to different page classes. 
+Page classes are variables in this class. These page classes will have default(no access specifiers defined) access specifier.   
+
+
+========================================================================================
+
+src/main/java/
 Pages > Programs > ProgramDesignerPage
 
 Page Classes extend the DriverActions. 
@@ -100,6 +112,8 @@ waitImplicit(WebDriver, int)
 writeScreenshotToFile(WebDriver, String)
 
 
+
+
 ========================================================================================
 src/main/java/
 utils> CommonUtils
@@ -138,12 +152,17 @@ testExecutor> Driver
 
 
 ========================================================================================
+src/test/java/
+testExecutor> DriverBase
+Contains variable of login impl class. 
 
+Base class that should be extended by every test class. The class contains methods to initialize driver, launch browser and quit the driver.
+@BeforeTest, @AfterTest annotations are used to achieve this. 
 
-
-========================================================================================
-
-
+This class will call the singleton class Driver to check if there is already an instance of driver. 
+Since getDriverInstance class of singleton Driver class returns the driver, on this driver, the podURL is invoked 
+using the navigateToURL method of DriverBase, call the login function of LoginPage class using login impl class. 
+Once logged in, DriverBase job is done, testCases can now be performed using TestClasses.  
 
 ========================================================================================
 
