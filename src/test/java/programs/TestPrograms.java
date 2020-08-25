@@ -21,4 +21,10 @@ public class TestPrograms extends DriverBase{
 		program.letsStart();
 	}
 	
+	
+	@Test
+	public void openGivenProgramFromFolder(String programName, String FolderName) {
+		
+	}
+	
 }
