@@ -9,6 +9,11 @@ public class FoldersPage extends DriverActions {
 	public FoldersPage(WebDriver driver) {
 		super(driver);
 	}
+	
+	
+	public void goToFolder(String folderName) {
+		
+	}
 
 
 }

@@ -38,18 +38,17 @@ abstract public class DriverActions {
 			if (element != null) {
 				element.click();
 				DriverUtils.waitImplicitInSeconds(FrameworkConstants.WAIT_IN_SECONDS_05);
-				//Report.pass("'" + objectName + "'" + " is clicked");
-				System.out.println("'" + objectName + "'" + " is clicked");
+				Report.pass("'" + objectName + "'" + " is clicked");
 			} else {
-				System.out.println("'" + objectName + "' is not found");
-				//Report.fail("'" + objectName + "' is not found");
+		
+				Report.fail("'" + objectName + "' is not found");
 			}
 		} catch (StaleElementReferenceException e) {
-			e.printStackTrace();
-			//Report.fail("'" + objectName + "' is not found");
+			//e.printStackTrace();
+			Report.fail("'" + objectName + "' is not found");
 		} catch (WebDriverException e) {
-			e.printStackTrace();
-			//Report.fail("Unable to click " + "'" + objectName + "'");
+			//e.printStackTrace();
+			Report.fail("Unable to click " + "'" + objectName + "'");
 		}
 	}
 	

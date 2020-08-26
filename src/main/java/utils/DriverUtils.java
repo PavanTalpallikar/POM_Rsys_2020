@@ -3,6 +3,7 @@ package utils;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -66,6 +67,8 @@ public class DriverUtils {
 	public static void maximizeBrowser() {
 		driver.manage().window().maximize();
 	}
+	
+
 
 
 
