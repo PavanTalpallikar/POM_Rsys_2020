@@ -6,9 +6,9 @@
       <class name="programs.TestPrograms">
         <methods>
           <include name="logout"/>
-          <include name="sampleTest"/>
           <include name="initBrowser"/>
           <include name="init"/>
+          <include name="openProgram"/>
         </methods>
       </class> <!-- programs.TestPrograms -->
     </classes>

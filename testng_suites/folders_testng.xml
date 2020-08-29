@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Rsys Suite Folders" verbose="1">
+	<test name = "Fodlers Test" junit="false">
+		<classes>
+			<class name = "folders.TestFolders"/>
+		</classes>
+	</test>
+</suite>

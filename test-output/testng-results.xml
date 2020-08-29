@@ -1,47 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[Info: This is inside checkIfHamburgerMenuExists in Home page<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: This is inside clickOnFoldersInHamburgerMenu in Home page<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: This is inside checkIfHamburgerMenuExists in Home page<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'Click on Hamburger menu' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'Folders in Hamburger Menu' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: This is inside goToAGivenFolder in Folders page<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'DropDown to select All folders' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'XPATH_SELECT_ALL_FOLDERS_IN_FOLDERS_DROPDOWN' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Inside All folders, checked given folder exists and now trying to click]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'Folder - P_Sanity2_SaveAs' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: Clicked on the folder - P_Sanity2_SaveAs<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'Click on P_Sanity2_AllocationSwitch_SaveAs' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'Logout drop down' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'Sign out link' is clicked<br>]]>
+    </line>
   </reporter-output>
-  <suite name="Rsys Suite" duration-ms="21166" started-at="2020-08-23T19:51:07Z" finished-at="2020-08-23T19:51:29Z">
+  <suite name="Rsys Suite" duration-ms="102839" started-at="2020-08-29T18:17:30Z" finished-at="2020-08-29T18:19:12Z">
     <groups>
     </groups>
-    <test name="Programs Test" duration-ms="21166" started-at="2020-08-23T19:51:07Z" finished-at="2020-08-23T19:51:29Z">
+    <test name="Programs Test" duration-ms="102839" started-at="2020-08-29T18:17:30Z" finished-at="2020-08-29T18:19:12Z">
       <class name="programs.TestPrograms">
-        <test-method status="PASS" signature="initBrowser()[pri:0, instance:programs.TestPrograms@5622fdf]" name="initBrowser" is-config="true" duration-ms="16053" started-at="2020-08-23T19:51:07Z" finished-at="2020-08-23T19:51:23Z">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:programs.TestPrograms@7d9d1a19]" name="initBrowser" is-config="true" duration-ms="60751" started-at="2020-08-29T18:17:30Z" finished-at="2020-08-29T18:18:30Z">
           <reporter-output>
+            <line>
+              <![CDATA[Info: This is inside checkIfHamburgerMenuExists in Home page<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method status="PASS" signature="init()[pri:0, instance:programs.TestPrograms@5622fdf]" name="init" is-config="true" duration-ms="3" started-at="2020-08-23T19:51:23Z" finished-at="2020-08-23T19:51:23Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:programs.TestPrograms@7d9d1a19]" name="init" is-config="true" duration-ms="7" started-at="2020-08-29T18:18:30Z" finished-at="2020-08-29T18:18:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:programs.TestPrograms@5622fdf]" name="sampleTest" duration-ms="7" started-at="2020-08-23T19:51:24Z" finished-at="2020-08-23T19:51:24Z">
+        <test-method status="PASS" signature="sampleTest()[pri:2, instance:programs.TestPrograms@7d9d1a19]" name="sampleTest" duration-ms="11" started-at="2020-08-29T18:18:30Z" finished-at="2020-08-29T18:18:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method status="FAIL" signature="logout()[pri:0, instance:programs.TestPrograms@5622fdf]" name="logout" is-config="true" duration-ms="5060" started-at="2020-08-23T19:51:24Z" finished-at="2020-08-23T19:51:29Z">
+        <test-method status="PASS" signature="openProgram()[pri:3, instance:programs.TestPrograms@7d9d1a19]" name="openProgram" duration-ms="17917" started-at="2020-08-29T18:18:30Z" finished-at="2020-08-29T18:18:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Info: This is inside clickOnFoldersInHamburgerMenu in Home page<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: This is inside checkIfHamburgerMenuExists in Home page<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'Click on Hamburger menu' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'Folders in Hamburger Menu' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: This is inside goToAGivenFolder in Folders page<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'DropDown to select All folders' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'XPATH_SELECT_ALL_FOLDERS_IN_FOLDERS_DROPDOWN' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Inside All folders, checked given folder exists and now trying to click]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'Folder - P_Sanity2_SaveAs' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: Clicked on the folder - P_Sanity2_SaveAs<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'Click on P_Sanity2_AllocationSwitch_SaveAs' is clicked<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openProgram -->
+        <test-method status="FAIL" signature="logout()[pri:0, instance:programs.TestPrograms@7d9d1a19]" name="logout" is-config="true" duration-ms="24095" started-at="2020-08-29T18:18:48Z" finished-at="2020-08-29T18:19:12Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'uifresponsysheaderaccountbutton')]"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//tbody/tr//td[@id='ui.login.sessionTimedOut']"}
   (Session info: chrome=84.0.4147.135)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
-System info: host: 'PTALPALL-LAP', ip: '10.74.113.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'PTALPALL-LAP', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\PTALPA~1.ORA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: eddc69e310053fea7e26f847fd997854
-*** Element info: {Using=xpath, value=//a[contains(@id,'uifresponsysheaderaccountbutton')]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\PTALPA~1.ORA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61353}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d4cf0c1a9064751a267c3ae91be769a8
+*** Element info: {Using=xpath, value=//tbody/tr//td[@id='ui.login.sessionTimedOut']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'uifresponsysheaderaccountbutton')]"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tbody/tr//td[@id='ui.login.sessionTimedOut']"}
   (Session info: chrome=84.0.4147.135)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
-System info: host: 'PTALPALL-LAP', ip: '10.74.113.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'PTALPALL-LAP', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\PTALPA~1.ORA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: eddc69e310053fea7e26f847fd997854
-*** Element info: {Using=xpath, value=//a[contains(@id,'uifresponsysheaderaccountbutton')]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\PTALPA~1.ORA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61353}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d4cf0c1a9064751a267c3ae91be769a8
+*** Element info: {Using=xpath, value=//tbody/tr//td[@id='ui.login.sessionTimedOut']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -56,9 +138,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-at core.DriverActions.findElementByXpath(DriverActions.java:22)
-at core.DriverActions.isVisible(DriverActions.java:72)
-at pages.login.LoginPage.logout(LoginPage.java:41)
+at core.DriverActions.findElementByXpath(DriverActions.java:24)
+at core.DriverActions.isVisible(DriverActions.java:73)
+at pages.login.LoginPage.logout(LoginPage.java:44)
 at impl.login.Login.logout(Login.java:42)
 at testExecutor.DriverBase.logout(DriverBase.java:38)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -89,6 +171,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[Pass: 'Logout drop down' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'Sign out link' is clicked<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- programs.TestPrograms -->

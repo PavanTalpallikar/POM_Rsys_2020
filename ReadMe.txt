@@ -79,6 +79,9 @@ Contains initDriver method to initialize driver.
 Contains methods such as : launchBrowserAndNavigateToURL, launchBrowserAndGoToPodURL, getTitle, waitImplicit, 
 All methods are static and are available at compile time without needing to create instances.
 
+
+waitExplicit(int)
+waitImplicit(WebDriver, int)
 alertAccept()
 alertCancel()
 alertPresent()
@@ -107,8 +110,6 @@ switchToFrame(WebDriver, WebElement)
 switchToRecentTab(WebDriver)
 switchToWindow(WebDriver, String)
 switchToWindowOrTab(WebDriver, String)
-waitExplicit(int)
-waitImplicit(WebDriver, int)
 writeScreenshotToFile(WebDriver, String)
 
 

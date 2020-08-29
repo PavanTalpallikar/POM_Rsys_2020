@@ -4,7 +4,11 @@ environment = ENG1
 
 ENG1_URL = https://interact.eng1.responsys.net/interact/login/LoginPage
 QA1_URL = https://interact.qa1.responsys.net/interact/login/LoginPage
+DEV1_URL = https://interact.dev1.rsysdev.net/authentication/login/LoginPage
 
-username = pavantest1
+
+
+
+username = a1pgmacc02
 password = Welcome1234!
 

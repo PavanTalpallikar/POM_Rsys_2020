@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rsys Suite Folders]">
+  <test thread-count="5" name="Fodlers Test(failed)">
+    <classes>
+      <class name="folders.TestFolders">
+        <methods>
+          <include name="logout"/>
+          <include name="goToFolder"/>
+          <include name="init"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- folders.TestFolders -->
+    </classes>
+  </test> <!-- Fodlers Test(failed) -->
+</suite> <!-- Failed suite [Rsys Suite Folders] -->

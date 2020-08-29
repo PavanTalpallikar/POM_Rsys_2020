@@ -21,7 +21,7 @@ public class DriverBase {
 		driver = Driver.getDriverInstance(browser);
 		login = new Login(driver);
 		if(driver!=null) {
-			navigateToURL(CommonUtils.getProperty("QA1_URL"));
+			navigateToURL(CommonUtils.getProperty("DEV1_URL"));
 			waitImplicitInSeconds(FrameworkConstants.WAIT_IN_SECONDS_02);
 			maximizeBrowser();
 			login.doLogin();		

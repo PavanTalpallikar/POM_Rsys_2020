@@ -12,7 +12,7 @@ public class LoginPage extends DriverActions{
 	
 	public static final String XPATH_LOGINPAGE_USERNAME = "//*[@id='txtUserName']"; 
 	public static final String XPATH_LOGINPAGE_PASSWORD = "//*[@id='txtPassword']";
-	public static final String XPATH_LOGINPAGE_SIGNIN_BUTTON = "//*[@id='signIn']";
+	public static final String XPATH_LOGINPAGE_SIGNIN_BUTTON = "//form[@id='loginForm']//*[@id='signIn']";
 	
 	private static final String XPATH_RESP_LOGOUT_DROPDOWN = "//a[contains(@id,'uifresponsysheaderaccountbutton')]";
 	private static final String XPATH_LOGOUT_LINK = "//a//span[contains(text(),'Sign Out')]";
@@ -31,7 +31,7 @@ public class LoginPage extends DriverActions{
 		findElementByXpath(XPATH_LOGINPAGE_USERNAME).sendKeys(un);
 		DriverUtils.waitImplicitInSeconds(FrameworkConstants.WAIT_IN_SECONDS_02);
 		findElementByXpath(XPATH_LOGINPAGE_PASSWORD).sendKeys(pwd);
-		DriverUtils.waitImplicitInSeconds(FrameworkConstants.WAIT_IN_SECONDS_02);
+		DriverUtils.waitExplicitThreadSleepInMilliSeconds(10000);
 		findElementByXpath(XPATH_LOGINPAGE_SIGNIN_BUTTON).click();
 		DriverUtils.waitImplicitInSeconds(FrameworkConstants.WAIT_IN_SECONDS_02);
 	}
