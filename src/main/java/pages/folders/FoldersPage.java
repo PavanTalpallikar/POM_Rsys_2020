@@ -24,6 +24,10 @@ public class FoldersPage extends DriverActions {
 	}
 	
 	
+	/** Assumes that the driver is on folders page and clicks the given folder
+	 *  
+	 * @param folderName
+	 */
 	public void navigateToAGivenFolder(String folderName) {
 		
 		Report.info("This is inside goToAGivenFolder in Folders page");
@@ -45,8 +49,12 @@ public class FoldersPage extends DriverActions {
 	}
 	
 	
-	
+	/** Assumes that driver is on folders page and opens the given program from 
+	 * folder
+	 * @param programName
+	 */
 	public void openProgram(String programName) {
+		
 		DriverUtils.waitExplicitThreadSleepInMilliSeconds(3000);
 		click(String.format(XPATH_OPEN_REQUIRED_PROGRAM2, programName),   "Click on " + programName);
 		DriverUtils.waitExplicitThreadSleepInMilliSeconds(3000);	
