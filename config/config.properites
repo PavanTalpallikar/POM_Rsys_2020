@@ -2,9 +2,9 @@ browser=chrome
 
 environment = ENG1
 
-ENG1_URL = https://interact.eng1.responsys.net/interact/login/LoginPage
-QA1_URL = https://interact.qa1.responsys.net/interact/login/LoginPage
-DEV1_URL = https://interact.dev1.rsysdev.net/authentication/login/LoginPage
+ENG1_URL = https://rsysinteract.eng1.responsys.net/interact/login/LoginPage
+
+
 
 
 
